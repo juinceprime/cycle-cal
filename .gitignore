@@ -1,0 +1,20 @@
+# 构建产物与本地工具链（不入库）
+build/
+_sdk/
+_dl/
+*.keystore
+*.jks
+local.properties
+
+# 分发产物（改用 GitHub Releases 附件）
+*.apk
+*.idsig
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
